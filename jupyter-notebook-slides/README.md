@@ -1,3 +1,9 @@
-# Creating Presentation Slides with Jupyter notebook
+# Projet de visualisation de données
 
-Please see [blog post](http://echorand.me/presentation-slides-with-jupyter-notebook.html#.V19WnWJ96V4) on how I created my first slide deck with Jupyer Notebook.
+1. Executer le serveur (jupyter notebook)
+2. Créer ses slides
+3. Générer la présentation
+  3.1 Pour mise en ligne : ./publish.sh
+  3.2 Pour du local : jupyter-nbconvert --to slides slides.ipynb --reveal-prefix=reveal.js --post serve
+  
+Source : http://echorand.me/presentation-slides-with-jupyter-notebook.html#.WKTelH8UtSU
